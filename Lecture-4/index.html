@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lecture-4</title>
+  <style>
+    table,td{
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+
+    <h1>Table</h1>
+  <!--  <table>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+    </table>
+    --->
+
+    <table>
+      <caption>
+        A Test table with merged cells
+      </caption>
+
+      <colgroup>
+        <col span="" style="background-color: aqua;"
+      </colgroup>
+      
+      <tr>
+        <!--Row 1-->
+        <td rowspan="2"></td>
+        <td colspan="2">Average</td>
+        <td rowspan="2">Red Eyes</td>
+      </tr>
+      <tr>
+        <!--Row 2-->
+        <td>Height</td>
+        <td>Weight</td>
+      </tr>
+      <tr>
+        <!--Row 3-->
+        <td>Males</td>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+      </tr>
+      <tr>
+        <!--Row 4-->
+        <td>Females</td>
+        <td>1.7</td>
+        <td>0.002</td>
+        <td>43%</td>
+      </tr>
+    </table>
+
+
+    <table>
+      <caption>Ration</caption>
+      <thead>
+        <tr>
+          <td>Items</td>
+          <td>Price</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Rice</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Pudding </td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>Sugar</td>
+          <td>140</td>
+        </tr>
+
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>270</td>
+        </tr>
+
+      </tfoot>
+    </table>
+
+
+
+
+  </div>
+  
+</body>
+</html>
